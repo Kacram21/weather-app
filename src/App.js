@@ -1,7 +1,10 @@
 import React, {useState} from 'react';
-const api = {
+import apiKey from 'jsconfig'
 
-  key: "d251c7820a05da8aaa3f4e5effe2bc7f",
+
+
+const api = {
+  key: "",
   base: "https://api.openweathermap.org/data/2.5/"
   
 }
